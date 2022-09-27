@@ -21,7 +21,7 @@ class DysonCloud {
                 Password: password
             },
             headers: {
-                'User-Agent': 'Mozilla/5.0'
+                'User-Agent': 'android client'
             },
             agentOptions: {
                 rejectUnauthorized: false
