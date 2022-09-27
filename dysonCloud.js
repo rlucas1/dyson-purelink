@@ -20,6 +20,9 @@ class DysonCloud {
                 Email: email,
                 Password: password
             },
+            headers: {
+                'User-Agent': 'Mozilla/5.0'
+            },
             agentOptions: {
                 rejectUnauthorized: false
             },
